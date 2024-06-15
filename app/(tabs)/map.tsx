@@ -1,7 +1,8 @@
 // MapScreen.tsx
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import MapView, { Marker } from 'react-native-maps';
+import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
+
 
 const MapScreen: React.FC = () => {
   const initialRegion = {
@@ -16,6 +17,7 @@ const MapScreen: React.FC = () => {
       <MapView
         style={styles.map}
         initialRegion={initialRegion}
+        
       >
         <Marker
           coordinate={{ latitude: 23.78825, longitude: 121.4324 }}

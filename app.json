@@ -1,3 +1,4 @@
+
 {
   "expo": {
     "name": "google-map-native",
@@ -22,7 +23,7 @@
       },
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyC6OSUFB_YcBUga3M_Hk0FwKNT0kwOmawY"
+          "apiKey": "${GOOGLE_MAPS_API_KEY}"
         }
       }
     },
